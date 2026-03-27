@@ -14,4 +14,3 @@ rev(N, Acc, Rez) :-
     NewAcc is Acc * 10 + Digit,
     NewN is N // 10,
     rev(NewN, NewAcc, Rez).
-https://xo.e0f.cx/sub/9L8UjPY9cVgWFQPe
