@@ -14,4 +14,8 @@ countMax([H|T], Current, Max, Res) :-
 
 countMax([H|T], _, Max, Res) :-
     H =< 0, 
+<<<<<<< HEAD
     countMax(T, 0, Max, Res).       
+=======
+    countMax(T, 0, Max, Res).       
+>>>>>>> 5c2684a669b8e5ebd628a1bd24d916715804251e
