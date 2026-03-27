@@ -4,7 +4,6 @@ start :-
     reverse(Num, Result),
     write('Перевернутое число: '), write(Result).
 
-% Ваш исходный код
 reverse(Num, Rezult) :-
     rev(Num, 0, Rezult).
 
